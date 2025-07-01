@@ -19,3 +19,4 @@ class DvdgayonlineProvider: Plugin() {
         registerExtractorAPI(Lulustream())
         registerExtractorAPI(StreamTape())
     }
+}
