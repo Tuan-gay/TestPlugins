@@ -42,7 +42,7 @@ subprojects {
     }
 
     android {
-        namespace = "com.Tuan-gay"
+        namespace = "com.Dvdgayonline"
 
         defaultConfig {
             minSdk = 21
