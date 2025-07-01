@@ -82,6 +82,13 @@ subprojects {
         implementation("org.jsoup:jsoup:1.18.3") // HTML Parser
         // IMPORTANT: Do not bump Jackson above 2.13.1, as newer versions will
         // break compatibility on older Android devices.
+        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.0")
+        implementation("com.fasterxml.jackson.core:jackson-databind:2.16.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1")
+        implementation("com.faendir.rhino:rhino-android:1.6.0")
+        implementation("me.xdrop:fuzzywuzzy:1.4.0")
+        implementation("com.google.code.gson:gson:2.11.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1") // JSON Parser
     }
 }
