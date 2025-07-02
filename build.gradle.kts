@@ -43,7 +43,7 @@ subprojects {
     }
 
     android {
-        namespace = "com.Tuan-gay"
+        namespace = "com.Tuan_gay"
 
         defaultConfig {
             minSdk = 21
