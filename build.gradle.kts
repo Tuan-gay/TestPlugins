@@ -39,10 +39,11 @@ subprojects {
     cloudstream {
         // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/Tuan-gay/TestPlugins")
+        authors=listOf("GayXXX")
     }
 
     android {
-        namespace = "com.Dvdgayonline"
+        namespace = "com.Tuan-gay"
 
         defaultConfig {
             minSdk = 21
@@ -89,8 +90,7 @@ subprojects {
         implementation("me.xdrop:fuzzywuzzy:1.4.0")
         implementation("com.google.code.gson:gson:2.11.0")
         implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1") // JSON Parser
-    }
+        }
 }
 
 task<Delete>("clean") {
